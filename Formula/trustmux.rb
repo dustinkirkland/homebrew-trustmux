@@ -3,8 +3,8 @@ class Trustmux < Formula
 
   desc "Monitor and interact with tmux/Byobu sessions from your phone"
   homepage "https://trustmux.dev"
-  url "https://files.pythonhosted.org/packages/43/3c/cdb9f32da5fad89d1cd249c1c5acd4c074cf0f02dbf25c9657adc08d4104/trustmux-7.7.tar.gz"
-  sha256 "07bd03d0af846f2e90a4d9f35c8143eb2ae0e905cd5d5084cf0286ed27243ba2"
+  url "https://files.pythonhosted.org/packages/3f/40/85c24caf43eea9ec6779c085a095c0bd35e1f0fd086fef2be3f1276299b4/trustmux-7.8.tar.gz"
+  sha256 "e98a2a44b63023c5ee8108bb55173fd84acc07bd1a053a947d60420dccd8a4b5"
   license "GPL-3.0-or-later"
 
   depends_on "python@3.12"
