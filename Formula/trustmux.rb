@@ -4,9 +4,9 @@ class Trustmux < Formula
   desc "Monitor and interact with tmux/Byobu sessions from your phone"
   homepage "https://trustmux.app"
 
-  url "https://files.pythonhosted.org/packages/5d/8f/6ba94f86be7a961c0b8a4ffa36479dbcfbf7e796fadb6c125f9de36e2433/trustmux-7.19.tar.gz"
-  sha256 "911171eb0a511721bd4bc5a0be647cbbfb7bdaa571bc34efe81b9c8e419f2c9b"
-  version "7.19"
+  url "https://files.pythonhosted.org/packages/38/32/0d154196448111b48f4656c1f4a1279004ac396cdaf1950366d3ce43070c/trustmux-7.20.tar.gz"
+  sha256 "85284bff85c9aabc75a80c658ca45f1bbbff5c468c3115ca85a112240ce6b761"
+  version "7.20"
   license "GPL-3.0-or-later"
 
   head "https://github.com/dustinkirkland/byobu.git", branch: "master"
@@ -31,8 +31,8 @@ class Trustmux < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/de/41/6cbdcf9142d00fe82836fbb51e503e58088575cf7a0fe1dbff6695bf0840/cryptography-50.0.0.tar.gz"
-    sha256 "eeac2acb5a20ed25e0ad6d1df9891a520b78b404266b6d11778f25d5d691a6c9"
+    url "https://files.pythonhosted.org/packages/bb/ad/5d6702db60b1e40b41ef513b6967ff5848f307d50f8449baf1634f5908f1/cryptography-50.0.1.tar.gz"
+    sha256 "5dd9bda1c12b4162f6ff568eeb5e0ff956c28d14406e875cfe8a63a2d414ff20"
   end
 
   def install
