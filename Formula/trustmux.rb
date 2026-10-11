@@ -4,9 +4,9 @@ class Trustmux < Formula
   desc "Monitor and interact with tmux/Byobu sessions from your phone"
   homepage "https://trustmux.app"
 
-  url "https://files.pythonhosted.org/packages/38/32/0d154196448111b48f4656c1f4a1279004ac396cdaf1950366d3ce43070c/trustmux-7.20.tar.gz"
-  sha256 "85284bff85c9aabc75a80c658ca45f1bbbff5c468c3115ca85a112240ce6b761"
-  version "7.20"
+  url "https://files.pythonhosted.org/packages/a7/c3/4e01c1a9377b2ff0bc2785eaae7e37cf8829d04ea25a977365d509734f44/trustmux-7.21.tar.gz"
+  sha256 "4f2fb72d26aaea8e5a2a5dc54bcb9fe8699ff33cbb6d4dde030b0911d7a00331"
+  version "7.21"
   license "GPL-3.0-or-later"
 
   head "https://github.com/dustinkirkland/byobu.git", branch: "master"
@@ -16,8 +16,8 @@ class Trustmux < Formula
   depends_on "rust" => :build  # required to compile cryptography's Rust extension
 
   resource "tornado" do
-    url "https://files.pythonhosted.org/packages/10/d3/343e5bb989d6515b1646cf3d40135d73f3d5e45339bded401b56cdac24dd/tornado-6.5.8.tar.gz"
-    sha256 "9452e1b208a8bd771e2cb1f2ff564985b9b214bdebbe622793e1799e0a6bd23f"
+    url "https://files.pythonhosted.org/packages/06/61/53d562a57b28c08eda40b258c0f975e360541943ad7c7bef897a40caafda/tornado-6.5.10.tar.gz"
+    sha256 "a6b1ccd08c04b4a06fb5aeb381be99de5ad1e5375c1785e31d78c880feb57687"
   end
 
   resource "pycparser" do
